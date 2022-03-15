@@ -1,0 +1,120 @@
+.details-modal {
+    background: #ffffff;
+    border-radius: 0.5em;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    left: 50%;
+    max-width: 90%;
+    position: absolute;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    width: 30em;
+    text-align: left;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+}
+.input-modal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 25px;
+}
+#input-text {
+    height: 20px;
+    width: 50%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border-color: #e0e0e0;
+}
+#textarea {
+    border-color: #e0e0e0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#input-text:focus {
+    outline: none;
+}
+.details-modal .details-modal-close svg {
+    display: block;
+}
+.details-modal .details-modal-title {
+    color: #111827;
+    padding: 1.5em 2em;
+    pointer-events: all;
+    position: relative;
+    width: calc(100% - 4.5em);
+}
+.details-modal .details-modal-title h1 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    line-height: normal;
+}
+.details-modal .details-modal-content {
+    border-top: 1px solid #e0e0e0;
+    padding: 2em;
+    pointer-events: all;
+    overflow: auto;
+}
+
+details summary {
+    list-style: none;
+}
+details summary:focus {
+    outline: none;
+}
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+
+
+/* CSS */
+.button-51 {
+  background-color: transparent;
+  border: 1px solid #266DB6;
+  box-sizing: border-box;
+  color: #00132C;
+  font-family: "Avenir Next LT W01 Bold",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  padding: 16px 23px;
+  position: relative;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-51:hover,
+.button-51:active {
+  outline: 0;
+}
+
+.button-51:hover {
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.button-51:before {
+  background-color: #D5EDF6;
+  content: "";
+  height: calc(100% + 3px);
+  position: absolute;
+  right: -7px;
+  top: -9px;
+  transition: background-color 300ms ease-in;
+  width: 100%;
+  z-index: -1;
+}
+
+.button-51:hover:before {
+  background-color: #6DCFF6;
+}
+
+@media (min-width: 768px) {
+  .button-51 {
+    padding: 16px 32px;
+  }
+}

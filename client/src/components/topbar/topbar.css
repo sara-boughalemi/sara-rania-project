@@ -1,0 +1,54 @@
+.top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+        rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+a {
+    text-decoration: none;
+}
+.top-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.blog-title {
+    font-size: 28px;
+    color: #cc9900;
+    display: block;
+    font-weight: 400;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 24px;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.menu-link {
+    border-radius: 6px;
+    color: #cc9900;
+    padding: 5px 20px;
+}
+
+.menu-link:hover {
+    color: white;
+    background-color: #cc9900;
+}
+.darkModeToggle {
+    overflow: visible !important;
+    margin-left: 450px;
+}
+.darkModeToggle div {
+    margin-top: -30px !important;
+    width: 66px;
+    height: 66px;
+}
+#contact {
+    margin-right: 50px;
+}

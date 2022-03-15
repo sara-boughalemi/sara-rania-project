@@ -1,0 +1,54 @@
+ .login{
+     height: calc(100vh - 50px);
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     background:
+      url("https://www.studioninja.co/wp-content/uploads/2017/06/blogging-for-photography-business-03.jpg");
+     background-size: cover;
+    }
+
+    .loginTitle{
+      font-size: 50px;
+
+    }
+    .loginForm{
+      margin-top: 20px;
+      display: flex;
+      flex-direction: column;
+
+    }
+    .loginForm>label{
+      margin: 10px 0;
+
+    }
+
+    .loginInput{
+       padding: 10px;
+       background-color: white;
+       border: none;
+
+    }
+
+    .loginButton{
+        margin-top:  20px;
+        cursor: pointer;
+        background-color: rgb(252, 180, 153);
+        border: none;
+        color: white;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    .loginRegisterButton{
+      position: absolute;
+      top:60px;
+      right: 20px;
+      background-color: teal; 
+      cursor: pointer;
+      border: none;
+      padding: 10px;
+      color:white;
+      border-radius: 10px;
+    }
